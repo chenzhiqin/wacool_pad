@@ -37,7 +37,13 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+	if(interfaceOrientation == UIInterfaceOrientationLandscapeLeft){
+        return YES;
+    }
+    if(interfaceOrientation == UIInterfaceOrientationLandscapeRight){
+        return YES;
+    }
+    return YES;
 }
 
 -(IBAction) testException:(id)sender{

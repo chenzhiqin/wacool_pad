@@ -14,3 +14,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/chenzhiqin/wacool_pad.git
 git pull -u origin master
 git push -u origin master
+
+4、@property
+使用assign: 对基础数据类型 （NSInteger，CGFloat）和C数据类型（int, float, double, char, 等等）
+使用copy： 对NSString
+使用retain： 对其他NSObject和其子类
+weak：只适合于使用了ARC的项目中
+声明delegate适合用assign

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (retain,nonatomic) IBOutlet UIButton *btn;
 - (IBAction)dfs:(id)sender ;
 @end

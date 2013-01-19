@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize btn;
 
 - (void)viewDidLoad
 {
@@ -21,9 +22,11 @@
 
 - (void)viewDidUnload
 {
+    [self setBtn:nil];//设置btn为nil
     [super viewDidUnload];
 }
 
+//控制横竖屏
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     if(interfaceOrientation == UIInterfaceOrientationLandscapeLeft){
@@ -37,5 +40,11 @@
 
 - (IBAction)dfs:(id)sender {
     [self performSelector:@selector(aaaa)];
+}
+
+- (void)dealloc
+{
+    [btn release];    //回收代码
+    [super dealloc];
 }
 @end

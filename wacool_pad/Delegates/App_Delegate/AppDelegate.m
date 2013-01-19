@@ -13,6 +13,7 @@
 #import "MD5Util.h"
 #import "PhoneUtil.h"
 #import "DateUtil.h"
+#import "ViewController2.h"
 
 @implementation AppDelegate
 
@@ -26,7 +27,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.viewController = [[[ViewController2 alloc] initWithNibName:@"view2" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     [self initApplicationData];

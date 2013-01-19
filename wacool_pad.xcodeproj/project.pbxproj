@@ -15,6 +15,8 @@
 		61574F1C16A29149000FE9A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61574F1B16A29149000FE9A1 /* ViewController.m */; };
 		61574F1F16A29149000FE9A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61574F1D16A29149000FE9A1 /* ViewController.xib */; };
 		61574F3016A29BEA000FE9A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61574F2F16A29BEA000FE9A1 /* AppDelegate.m */; };
+		61AC8EF616AA7EAF00278C7C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC8EF516AA7EAF00278C7C /* ViewController2.m */; };
+		61AC8EF916AA7ED600278C7C /* view2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AC8EF816AA7ED600278C7C /* view2.xib */; };
 		A2327EF616A8265000A11FE7 /* PhoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327EF516A8265000A11FE7 /* PhoneUtil.m */; };
 		A2327F1116A83C9700A11FE7 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327F1016A83C9700A11FE7 /* MD5Util.m */; };
 		A2327F1616A8483100A11FE7 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327F1516A8483100A11FE7 /* OpenUDID.m */; };
@@ -80,6 +82,9 @@
 		61574F1E16A29149000FE9A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		61574F2E16A29BEA000FE9A1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Delegates/App_Delegate/AppDelegate.h; sourceTree = "<group>"; };
 		61574F2F16A29BEA000FE9A1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/App_Delegate/AppDelegate.m; sourceTree = "<group>"; };
+		61AC8EF416AA7EAF00278C7C /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		61AC8EF516AA7EAF00278C7C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		61AC8EF816AA7ED600278C7C /* view2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = view2.xib; sourceTree = "<group>"; };
 		A2327EF416A8265000A11FE7 /* PhoneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneUtil.h; path = wacool_pad/CommonUtil/PhoneUtil.h; sourceTree = "<group>"; };
 		A2327EF516A8265000A11FE7 /* PhoneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneUtil.m; path = wacool_pad/CommonUtil/PhoneUtil.m; sourceTree = "<group>"; };
 		A2327F0F16A83C9700A11FE7 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5Util.h; path = wacool_pad/CommonUtil/MD5Util.h; sourceTree = "<group>"; };
@@ -251,6 +256,9 @@
 				61574F1A16A29149000FE9A1 /* ViewController.h */,
 				61574F1B16A29149000FE9A1 /* ViewController.m */,
 				61574F1D16A29149000FE9A1 /* ViewController.xib */,
+				61AC8EF416AA7EAF00278C7C /* ViewController2.h */,
+				61AC8EF516AA7EAF00278C7C /* ViewController2.m */,
+				61AC8EF816AA7ED600278C7C /* view2.xib */,
 			);
 			path = wacool_pad;
 			sourceTree = "<group>";
@@ -662,6 +670,7 @@
 				61574F1F16A29149000FE9A1 /* ViewController.xib in Resources */,
 				A2A3A06816A43E4E000C6D09 /* readme.txt in Resources */,
 				A2A3A0A216A45F80000C6D09 /* Localizable.strings in Resources */,
+				61AC8EF916AA7ED600278C7C /* view2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +725,7 @@
 				A2327F1916A8483900A11FE7 /* IPAddress.c in Sources */,
 				A2327F1F16A84F6900A11FE7 /* StringUtil.m in Sources */,
 				A2327F2316A8514500A11FE7 /* DateUtil.m in Sources */,
+				61AC8EF616AA7EAF00278C7C /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

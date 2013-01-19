@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "UncaughtExceptionHandler.h"
-#import "ViewController.h"
+#import "MyViewController.h"
 
 #import "MD5Util.h"
 #import "PhoneUtil.h"
@@ -26,7 +26,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.viewController = [[[MyViewController alloc] initWithNibName:@"MyViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     [self initApplicationData];

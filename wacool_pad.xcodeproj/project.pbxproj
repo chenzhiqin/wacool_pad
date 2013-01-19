@@ -64,6 +64,9 @@
 		A2A3A10E16A46258000C6D09 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A3A10316A46258000C6D09 /* Reachability.m */; };
 		A2A3A10F16A46258000C6D09 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A3A10516A46258000C6D09 /* ReachabilityAppDelegate.m */; };
 		A2A3A11216A4632F000C6D09 /* ItemDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A3A11116A4632F000C6D09 /* ItemDBUtil.m */; };
+		A2DE445516AA7FEE0057B54E /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE445416AA7FEE0057B54E /* FileUtil.m */; };
+		A2DE446216AA86350057B54E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE446016AA86350057B54E /* MyViewController.m */; };
+		A2DE446316AA86350057B54E /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DE446116AA86350057B54E /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +182,12 @@
 		A2A3A11016A4632F000C6D09 /* ItemDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDBUtil.h; path = DBUtils/ItemDBUtil.h; sourceTree = "<group>"; };
 		A2A3A11116A4632F000C6D09 /* ItemDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDBUtil.m; path = DBUtils/ItemDBUtil.m; sourceTree = "<group>"; };
 		A2A3A11316A46384000C6D09 /* ItemDBConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemDBConstant.h; sourceTree = "<group>"; };
+		A2DE445216AA7E2C0057B54E /* WacoolConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WacoolConstant.h; sourceTree = "<group>"; };
+		A2DE445316AA7FEE0057B54E /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUtil.h; path = wacool_pad/CommonUtil/FileUtil.h; sourceTree = "<group>"; };
+		A2DE445416AA7FEE0057B54E /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileUtil.m; path = wacool_pad/CommonUtil/FileUtil.m; sourceTree = "<group>"; };
+		A2DE445F16AA86350057B54E /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = Controllers/MyViewController.h; sourceTree = "<group>"; };
+		A2DE446016AA86350057B54E /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = Controllers/MyViewController.m; sourceTree = "<group>"; };
+		A2DE446116AA86350057B54E /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyViewController.xib; path = Controllers/MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +321,7 @@
 		A2327EF316A8253F00A11FE7 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				A2DE445616AA7FF20057B54E /* FileUtil */,
 				A2327F2016A8512800A11FE7 /* DataUtil */,
 				A2327F1C16A84F4D00A11FE7 /* StringUtil */,
 				A2327F1B16A8485400A11FE7 /* PhoneUtil */,
@@ -387,6 +397,7 @@
 		A2A3A06916A43EB6000C6D09 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				A2DE445216AA7E2C0057B54E /* WacoolConstant.h */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -422,6 +433,9 @@
 		A2A3A08216A44287000C6D09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2DE445F16AA86350057B54E /* MyViewController.h */,
+				A2DE446016AA86350057B54E /* MyViewController.m */,
+				A2DE446116AA86350057B54E /* MyViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -607,6 +621,15 @@
 			name = ASI_Http_Request;
 			sourceTree = "<group>";
 		};
+		A2DE445616AA7FF20057B54E /* FileUtil */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE445316AA7FEE0057B54E /* FileUtil.h */,
+				A2DE445416AA7FEE0057B54E /* FileUtil.m */,
+			);
+			name = FileUtil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -662,6 +685,7 @@
 				61574F1F16A29149000FE9A1 /* ViewController.xib in Resources */,
 				A2A3A06816A43E4E000C6D09 /* readme.txt in Resources */,
 				A2A3A0A216A45F80000C6D09 /* Localizable.strings in Resources */,
+				A2DE446316AA86350057B54E /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +740,8 @@
 				A2327F1916A8483900A11FE7 /* IPAddress.c in Sources */,
 				A2327F1F16A84F6900A11FE7 /* StringUtil.m in Sources */,
 				A2327F2316A8514500A11FE7 /* DateUtil.m in Sources */,
+				A2DE445516AA7FEE0057B54E /* FileUtil.m in Sources */,
+				A2DE446216AA86350057B54E /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

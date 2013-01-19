@@ -13,6 +13,7 @@
 @end
 
 @implementation MyViewController
+@synthesize btn=_btn;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,19 +27,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    [self setBtn:nil];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return YES;
+}
+
+-(IBAction) testException:(id)sender{
+    [self performSelector:@selector(exceptionMethod)];
+
+}
+
+- (void)dealloc
+{
+    [_btn release];
+    [super dealloc];
 }
 
 @end

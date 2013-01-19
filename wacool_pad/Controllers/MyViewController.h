@@ -10,4 +10,8 @@
 
 @interface MyViewController : UIViewController
 
+@property (retain,nonatomic) IBOutlet UIButton *btn;
+
+-(IBAction) testException:(id)sender;
+
 @end

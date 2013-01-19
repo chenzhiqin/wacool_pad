@@ -32,6 +32,7 @@
 - (void)viewDidUnload
 {
     NSLog(@"test");
+    NSLog(@"test2");
     [super viewDidUnload];
 }
 

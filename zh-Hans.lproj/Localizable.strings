@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  wacool_pad
+
+  Created by dengshengjin on 13-1-14.
+  Copyright (c) 2013年 wacool. All rights reserved.
+*/
+"loading" = "加载中...";
+"pull down to refresh" = "下拉刷新...";
+"release to refresh" = "松开刷新...";
+"last updated" = "最后更新:";

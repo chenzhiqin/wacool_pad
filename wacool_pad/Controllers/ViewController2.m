@@ -31,10 +31,10 @@
 
 - (void)viewDidUnload
 {
-    NSLog(@"test");
+    NSLog(@"test1");
     NSLog(@"test2");
+    NSLog(@"test3");
     [super viewDidUnload];
 }
-
 
 @end

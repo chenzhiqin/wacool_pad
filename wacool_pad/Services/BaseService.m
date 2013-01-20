@@ -7,8 +7,6 @@
 //
 
 #import "BaseService.h"
-#import "ASIHTTPRequest.h"
-#import "WacoolConstant.h"
 
 @implementation BaseService
 

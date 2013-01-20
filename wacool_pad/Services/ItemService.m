@@ -7,8 +7,6 @@
 //
 
 #import "ItemService.h"
-#import "ItemModel.h"
-
 
 @implementation ItemService
 

@@ -8,6 +8,7 @@
 
 #import "ApiReqDelegate.h"
 #import "BaseService.h"
+#import "ItemModel.h"
 
 @interface ItemService : BaseService{
    id<ApiReqDelegate> apiReqDelegate;

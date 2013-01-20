@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ASIHTTPRequest.h"
+#import "WacoolConstant.h"
 
 @interface BaseService : NSObject
 

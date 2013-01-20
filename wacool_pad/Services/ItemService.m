@@ -7,9 +7,8 @@
 //
 
 #import "ItemService.h"
-#import "WacoolConstant.h"
 #import "ItemModel.h"
-#import "ASIHTTPRequest.h"
+
 
 @implementation ItemService
 

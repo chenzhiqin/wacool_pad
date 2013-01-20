@@ -2,6 +2,7 @@
 网络连接:SystemConfiguration.framework, MobileCoreServices.framework,CoreGraphics.framework和libz.1.2.5.dylib、CFNetwork.framework
 数据库:libsqlite3.0.dylib
 下拉刷新：QuartzCore.framework
+邮件分享：MessageUI.framework
 
 2、国际化
 创建string file，选中Localizable.strings在最右边属性中选中Localization，点击Make localized按钮，
@@ -21,3 +22,14 @@ git push -u origin master
 使用retain： 对其他NSObject和其子类
 weak：只适合于使用了ARC的项目中
 声明delegate适合用assign
+
+5、规范
+Models:一个模块对应一个Model,全部放在Models束下
+Services:类似Models
+Constants:类似Models
+DatabaseUtils：类似Models
+Delegates:一个模块建立一个Group，类似X_Delegate
+Controllers:类似Delegates
+
+Group名字以XxXx书写
+

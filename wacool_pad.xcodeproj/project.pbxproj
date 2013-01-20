@@ -13,8 +13,9 @@
 		61574F1316A29149000FE9A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61574F1116A29149000FE9A1 /* InfoPlist.strings */; };
 		61574F1516A29149000FE9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61574F1416A29149000FE9A1 /* main.m */; };
 		61574F3016A29BEA000FE9A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61574F2F16A29BEA000FE9A1 /* AppDelegate.m */; };
-		61DC546816AA9AB60026B8C4 /* view2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61DC546716AA9AB60026B8C4 /* view2.xib */; };
-		61DC546B16AA9B120026B8C4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DC546A16AA9B120026B8C4 /* ViewController2.m */; };
+		61DC547716AAD3D40026B8C4 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DC547616AAD3D40026B8C4 /* ItemModel.m */; };
+		61E4E5FA16AB9BDB00D22460 /* ItemService.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E5F916AB9BDB00D22460 /* ItemService.m */; };
+		A22D3C0316ABF047005536BE /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D3C0216ABF047005536BE /* BaseService.m */; };
 		A2327EF616A8265000A11FE7 /* PhoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327EF516A8265000A11FE7 /* PhoneUtil.m */; };
 		A2327F1116A83C9700A11FE7 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327F1016A83C9700A11FE7 /* MD5Util.m */; };
 		A2327F1616A8483100A11FE7 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = A2327F1516A8483100A11FE7 /* OpenUDID.m */; };
@@ -85,9 +86,12 @@
 		61574F1616A29149000FE9A1 /* wacool_pad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wacool_pad-Prefix.pch"; sourceTree = "<group>"; };
 		61574F2E16A29BEA000FE9A1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Delegates/App_Delegate/AppDelegate.h; sourceTree = "<group>"; };
 		61574F2F16A29BEA000FE9A1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/App_Delegate/AppDelegate.m; sourceTree = "<group>"; };
-		61DC546716AA9AB60026B8C4 /* view2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = view2.xib; path = Controllers/view2.xib; sourceTree = "<group>"; };
-		61DC546916AA9B120026B8C4 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = Controllers/ViewController2.h; sourceTree = "<group>"; };
-		61DC546A16AA9B120026B8C4 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = Controllers/ViewController2.m; sourceTree = "<group>"; };
+		61DC547516AAD3D40026B8C4 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemModel.h; path = Models/ItemModel.h; sourceTree = "<group>"; };
+		61DC547616AAD3D40026B8C4 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemModel.m; path = Models/ItemModel.m; sourceTree = "<group>"; };
+		61E4E5F816AB9BDB00D22460 /* ItemService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemService.h; path = Services/ItemService.h; sourceTree = "<group>"; };
+		61E4E5F916AB9BDB00D22460 /* ItemService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemService.m; path = Services/ItemService.m; sourceTree = "<group>"; };
+		A22D3C0116ABF047005536BE /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseService.h; path = Services/BaseService.h; sourceTree = "<group>"; };
+		A22D3C0216ABF047005536BE /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseService.m; path = Services/BaseService.m; sourceTree = "<group>"; };
 		A2327EF416A8265000A11FE7 /* PhoneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneUtil.h; path = wacool_pad/CommonUtil/PhoneUtil.h; sourceTree = "<group>"; };
 		A2327EF516A8265000A11FE7 /* PhoneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneUtil.m; path = wacool_pad/CommonUtil/PhoneUtil.m; sourceTree = "<group>"; };
 		A2327F0F16A83C9700A11FE7 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5Util.h; path = wacool_pad/CommonUtil/MD5Util.h; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 		61574F2916A2983B000FE9A1 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				A2DE44A716AACAF80057B54E /* X_Delegate */,
 				61574F2D16A29955000FE9A1 /* Api_Delegate */,
 				61574F2A16A29869000FE9A1 /* App_Delegate */,
 			);
@@ -304,6 +309,10 @@
 		61574F2B16A298BC000FE9A1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A22D3C0116ABF047005536BE /* BaseService.h */,
+				A22D3C0216ABF047005536BE /* BaseService.m */,
+				61E4E5F816AB9BDB00D22460 /* ItemService.h */,
+				61E4E5F916AB9BDB00D22460 /* ItemService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -313,6 +322,8 @@
 			children = (
 				A2A3A09816A45C4C000C6D09 /* BaseModel.h */,
 				A2A3A09916A45C4C000C6D09 /* BaseModel.m */,
+				61DC547516AAD3D40026B8C4 /* ItemModel.h */,
+				61DC547616AAD3D40026B8C4 /* ItemModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -443,9 +454,6 @@
 				A2DE445F16AA86350057B54E /* MyViewController.h */,
 				A2DE446016AA86350057B54E /* MyViewController.m */,
 				A2DE446116AA86350057B54E /* MyViewController.xib */,
-				61DC546716AA9AB60026B8C4 /* view2.xib */,
-				61DC546916AA9B120026B8C4 /* ViewController2.h */,
-				61DC546A16AA9B120026B8C4 /* ViewController2.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -645,6 +653,13 @@
 			name = FileUtil;
 			sourceTree = "<group>";
 		};
+		A2DE44A716AACAF80057B54E /* X_Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = X_Delegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -704,7 +719,7 @@
 				A2DE447F16AA97920057B54E /* app_icon114.png in Resources */,
 				A2DE448016AA97920057B54E /* Default-568h@2x.png in Resources */,
 				A2DE448116AA97920057B54E /* Default.png in Resources */,
-				A2DE448216AA97920057B54E /* Default@2x.png in Resources */,				61DC546816AA9AB60026B8C4 /* view2.xib in Resources */,
+				A2DE448216AA97920057B54E /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,7 +775,9 @@
 				A2327F2316A8514500A11FE7 /* DateUtil.m in Sources */,
 				A2DE445516AA7FEE0057B54E /* FileUtil.m in Sources */,
 				A2DE446216AA86350057B54E /* MyViewController.m in Sources */,
-				61DC546B16AA9B120026B8C4 /* ViewController2.m in Sources */,
+				61DC547716AAD3D40026B8C4 /* ItemModel.m in Sources */,
+				61E4E5FA16AB9BDB00D22460 /* ItemService.m in Sources */,
+				A22D3C0316ABF047005536BE /* BaseService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,9 @@
 
 @interface BaseModel : NSObject
 
+@property(nonatomic,assign) int returnCode;
+@property(nonatomic,copy) NSString *errorMsg;
+
++(int) parseReturnCode:(NSString *)jsonStr;
+
 @end

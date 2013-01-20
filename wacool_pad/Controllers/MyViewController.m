@@ -48,7 +48,6 @@
 
 -(IBAction) testException:(id)sender{
     [self performSelector:@selector(exceptionMethod)];
-
 }
 
 - (void)dealloc

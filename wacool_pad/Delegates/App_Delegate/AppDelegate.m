@@ -13,6 +13,7 @@
 #import "MD5Util.h"
 #import "PhoneUtil.h"
 #import "DateUtil.h"
+#import "ItemListController.h"
 
 @implementation AppDelegate
 
@@ -26,8 +27,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-
-    self.viewController = [[[MyViewController alloc] initWithNibName:@"MyViewController" bundle:nil] autorelease];
+    
+    //    self.viewController = [[[MyViewController alloc] initWithNibName:@"MyViewController" bundle:nil] autorelease];
+    self.viewController = [[[ItemListController alloc] initWithNibName:@"ItemListController" bundle:nil] autorelease];
     
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
@@ -38,7 +40,7 @@
 -(void) initApplicationData
 {
     InstallUncaughtExceptionHandler();
-    NSLog(@"md5=%@,platform=%@,deviceVersion=%@,padOrPhone=%@,mac=%@,ip=%@,udid=%@,width=%0.0f,height=%0.0f,time=%@,date=%@,parseTime=%@",[MD5Util getMD5Str:@"s"],[PhoneUtil getDeviceVersion],[PhoneUtil getCurrentIOSVersion],[PhoneUtil isUserInterfaceIdiomPhone]?@"YES":@"NO",[PhoneUtil getMacAddress],[PhoneUtil getCurrentIpAddress],[PhoneUtil getOpenUDID],[PhoneUtil getScreenWidth],[PhoneUtil getScreenHeight],[DateUtil getTime],[DateUtil getDate],[DateUtil parseDate:1358488888]);
+//    NSLog(@"md5=%@,platform=%@,deviceVersion=%@,padOrPhone=%@,mac=%@,ip=%@,udid=%@,width=%0.0f,height=%0.0f,time=%@,date=%@,parseTime=%@",[MD5Util getMD5Str:@"s"],[PhoneUtil getDeviceVersion],[PhoneUtil getCurrentIOSVersion],[PhoneUtil isUserInterfaceIdiomPhone]?@"YES":@"NO",[PhoneUtil getMacAddress],[PhoneUtil getCurrentIpAddress],[PhoneUtil getOpenUDID],[PhoneUtil getScreenWidth],[PhoneUtil getScreenHeight],[DateUtil getTime],[DateUtil getDate],[DateUtil parseDate:1358488888]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -47,12 +49,12 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    }
+}
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {

@@ -16,6 +16,10 @@
 #endif
 
 #define kWacoolTypeTag @"0" //0 normal //1 girls //2 boys
+#define APP_GENERAL_COLOR [UIColor colorWithRed:246.0/255.0 green:102.0/255.0 blue:52.0/255.0 alpha:1.0] // tag 0 wacool all
+//#define APP_GENERAL_COLOR [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:153.0/255.0 alpha:1.0] // tag 1 girl color
+//#define APP_GENERAL_COLOR [UIColor colorWithRed:63.0/255.0 green:142.0/255.0 blue:249.0/255.0 alpha:1.0] // tag 2 boy color
+
 
 // App base params
 const static int DEFAULT_PAGE_SIZE = 30;

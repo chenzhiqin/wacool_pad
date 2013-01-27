@@ -12,7 +12,7 @@
     
 }
 
-@property (nonatomic,assign) int itemId;
+@property (nonatomic,assign) long itemId;
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic,copy) NSString *imgUrl;
 @property (nonatomic,assign) double imgRatio;

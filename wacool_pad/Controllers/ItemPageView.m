@@ -34,7 +34,7 @@
 */
 
 
--(void)updateItemView:(ItemModel *) itemModel view:(UIView *) view descLabel:(UILabel *) lable  favorImg:(UIImageView *) img{
+-(void)updateItemView:(ItemModel *) itemModel view:(UIView *) view descLabel:(UILabel *) lable  favorImg:(UIImageView *) img likeNumLab:(UILabel *)likeNumLab{
   UIImageView  *itemBgImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, 200.f, 200.f)];
     UIImage *stretchedBackground = [[UIImage imageNamed:@"table_image_bd.png"] stretchableImageWithLeftCapWidth:4 topCapHeight:4];
     itemBgImageView.image = stretchedBackground;
@@ -45,11 +45,15 @@
     [view addSubview:itemBgImageView];
     [view addSubview:imageView];
     lable.text=itemModel.title;
-    if(itemModel.likes==1){
-        UIImage *favorImg=[UIImage imageNamed:@"icon_collected.png"];
-        [img setImage:favorImg];
-        [favorImg release];
-    }
+    
+    NSString *likeStr=[NSString stringWithFormat:NSLocalizedString(@"likes num",@""),itemModel.likes];
+    likeNumLab.text=likeStr;
+    
+//    if(itemModel.likes>0){
+//        UIImage *favorImg=[UIImage imageNamed:@"icon_collected.png"];
+//        [img setImage:favorImg];
+//        [favorImg release];
+//    }
     [imageView release];
 
 }

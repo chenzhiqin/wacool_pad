@@ -20,12 +20,12 @@
 		61A0AC1016B17F24006E58B1 /* icon_collected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A0AC0C16B17F24006E58B1 /* icon_collected@2x.png */; };
 		61A0AC1C16B18344006E58B1 /* ItemPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A0AC1B16B18344006E58B1 /* ItemPageView.m */; };
 		61DC547716AAD3D40026B8C4 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DC547616AAD3D40026B8C4 /* ItemModel.m */; };
+		61E3239D16B4CBCB000011F9 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E3239B16B4CBCB000011F9 /* blueArrow.png */; };
+		61E3239E16B4CBCB000011F9 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E3239C16B4CBCB000011F9 /* blueArrow@2x.png */; };
+		61E323A116B4CBF1000011F9 /* RefreshHeaderAndFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E323A016B4CBF1000011F9 /* RefreshHeaderAndFooterView.m */; };
 		61E4E5FA16AB9BDB00D22460 /* ItemService.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E5F916AB9BDB00D22460 /* ItemService.m */; };
 		61F1480A16B3A74200F4C5FD /* table_image_bd.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F1480816B3A74200F4C5FD /* table_image_bd.png */; };
 		61F1480B16B3A74200F4C5FD /* table_image_bd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F1480916B3A74200F4C5FD /* table_image_bd@2x.png */; };
-		61F1481416B3AF1900F4C5FD /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F1481316B3AF1900F4C5FD /* EGORefreshTableHeaderView.m */; };
-		61F1481716B3AF2F00F4C5FD /* pull_down_refresh_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F1481516B3AF2F00F4C5FD /* pull_down_refresh_arrow.png */; };
-		61F1481816B3AF2F00F4C5FD /* pull_down_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F1481616B3AF2F00F4C5FD /* pull_down_refresh_arrow@2x.png */; };
 		61F29A7816AEC41000FD4488 /* ItemListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F29A7716AEC41000FD4488 /* ItemListController.xib */; };
 		61F29A8316AECA3A00FD4488 /* icon_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F29A8216AECA3A00FD4488 /* icon_refresh.png */; };
 		61F29A8616AEDA6600FD4488 /* ItemListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F29A8516AEDA6600FD4488 /* ItemListController.m */; };
@@ -109,14 +109,14 @@
 		61A0AC1B16B18344006E58B1 /* ItemPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemPageView.m; path = Controllers/ItemPageView.m; sourceTree = "<group>"; };
 		61DC547516AAD3D40026B8C4 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemModel.h; path = Models/ItemModel.h; sourceTree = "<group>"; };
 		61DC547616AAD3D40026B8C4 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemModel.m; path = Models/ItemModel.m; sourceTree = "<group>"; };
+		61E3239B16B4CBCB000011F9 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = wacool_pad/Resources/blueArrow.png; sourceTree = "<group>"; };
+		61E3239C16B4CBCB000011F9 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "wacool_pad/Resources/blueArrow@2x.png"; sourceTree = "<group>"; };
+		61E3239F16B4CBF1000011F9 /* RefreshHeaderAndFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshHeaderAndFooterView.h; path = wacool_pad/EGORefreshTableHeader/RefreshHeaderAndFooterView.h; sourceTree = "<group>"; };
+		61E323A016B4CBF1000011F9 /* RefreshHeaderAndFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshHeaderAndFooterView.m; path = wacool_pad/EGORefreshTableHeader/RefreshHeaderAndFooterView.m; sourceTree = "<group>"; };
 		61E4E5F816AB9BDB00D22460 /* ItemService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemService.h; path = Services/ItemService.h; sourceTree = "<group>"; };
 		61E4E5F916AB9BDB00D22460 /* ItemService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemService.m; path = Services/ItemService.m; sourceTree = "<group>"; };
 		61F1480816B3A74200F4C5FD /* table_image_bd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_image_bd.png; path = wacool_pad/Resources/table_image_bd.png; sourceTree = "<group>"; };
 		61F1480916B3A74200F4C5FD /* table_image_bd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "table_image_bd@2x.png"; path = "wacool_pad/Resources/table_image_bd@2x.png"; sourceTree = "<group>"; };
-		61F1481216B3AF1900F4C5FD /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = wacool_pad/EGORefreshTableHeader/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
-		61F1481316B3AF1900F4C5FD /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = wacool_pad/EGORefreshTableHeader/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
-		61F1481516B3AF2F00F4C5FD /* pull_down_refresh_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pull_down_refresh_arrow.png; path = wacool_pad/Resources/pull_down_refresh_arrow.png; sourceTree = "<group>"; };
-		61F1481616B3AF2F00F4C5FD /* pull_down_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_down_refresh_arrow@2x.png"; path = "wacool_pad/Resources/pull_down_refresh_arrow@2x.png"; sourceTree = "<group>"; };
 		61F29A7716AEC41000FD4488 /* ItemListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemListController.xib; path = Controllers/ItemListController.xib; sourceTree = "<group>"; };
 		61F29A8216AECA3A00FD4488 /* icon_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_refresh.png; path = wacool_pad/Resources/icon_refresh.png; sourceTree = "<group>"; };
 		61F29A8416AEDA6600FD4488 /* ItemListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemListController.h; path = Controllers/ItemListController.h; sourceTree = "<group>"; };
@@ -370,8 +370,8 @@
 		61F1481116B3AE8C00F4C5FD /* EGORefreshTableHeader */ = {
 			isa = PBXGroup;
 			children = (
-				61F1481216B3AF1900F4C5FD /* EGORefreshTableHeaderView.h */,
-				61F1481316B3AF1900F4C5FD /* EGORefreshTableHeaderView.m */,
+				61E3239F16B4CBF1000011F9 /* RefreshHeaderAndFooterView.h */,
+				61E323A016B4CBF1000011F9 /* RefreshHeaderAndFooterView.m */,
 			);
 			name = EGORefreshTableHeader;
 			sourceTree = "<group>";
@@ -529,8 +529,8 @@
 		A2A3A08516A442FF000C6D09 /* Drawables */ = {
 			isa = PBXGroup;
 			children = (
-				61F1481516B3AF2F00F4C5FD /* pull_down_refresh_arrow.png */,
-				61F1481616B3AF2F00F4C5FD /* pull_down_refresh_arrow@2x.png */,
+				61E3239B16B4CBCB000011F9 /* blueArrow.png */,
+				61E3239C16B4CBCB000011F9 /* blueArrow@2x.png */,
 				61F1480816B3A74200F4C5FD /* table_image_bd.png */,
 				61F1480916B3A74200F4C5FD /* table_image_bd@2x.png */,
 				61A0AC0916B17F24006E58B1 /* icon_collect.png */,
@@ -785,8 +785,8 @@
 				61A0AC1016B17F24006E58B1 /* icon_collected@2x.png in Resources */,
 				61F1480A16B3A74200F4C5FD /* table_image_bd.png in Resources */,
 				61F1480B16B3A74200F4C5FD /* table_image_bd@2x.png in Resources */,
-				61F1481716B3AF2F00F4C5FD /* pull_down_refresh_arrow.png in Resources */,
-				61F1481816B3AF2F00F4C5FD /* pull_down_refresh_arrow@2x.png in Resources */,
+				61E3239D16B4CBCB000011F9 /* blueArrow.png in Resources */,
+				61E3239E16B4CBCB000011F9 /* blueArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,7 +847,7 @@
 				A22D3C0316ABF047005536BE /* BaseService.m in Sources */,
 				61F29A8616AEDA6600FD4488 /* ItemListController.m in Sources */,
 				61A0AC1C16B18344006E58B1 /* ItemPageView.m in Sources */,
-				61F1481416B3AF1900F4C5FD /* EGORefreshTableHeaderView.m in Sources */,
+				61E323A116B4CBF1000011F9 /* RefreshHeaderAndFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

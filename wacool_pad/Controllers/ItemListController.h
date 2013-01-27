@@ -7,24 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EGORefreshTableHeaderView.h"
 #import "ItemService.h"
+#import "RefreshHeaderAndFooterView.h"
 
 
-@interface ItemListController : UIViewController<EGORefreshTableHeaderDelegate,UIScrollViewDelegate,ApiReqDelegate>{
+@interface ItemListController : UIViewController<RefreshHeaderAndFooterViewDelegate,UIScrollViewDelegate,ApiReqDelegate>{
     IBOutlet UIButton *allBtn,*hotBtn,*collectBtn,*favoriteBtn,*moreBtn;
 
     IBOutlet UIImageView *refreshImg,*leftLineImg;
     IBOutlet UIScrollView *itemScrollView;
+    IBOutlet UILabel *pageLabel;
     
-    EGORefreshTableHeaderView *_refreshHeaderView;
-    BOOL _reloading;
+    RefreshHeaderAndFooterView * refreshHeaderAndFooterView;
+    BOOL reloading;
+    
     ItemService *itemService;
+    NSMutableArray *itemData;
     int scrollPage;
+    int pageCount,pageSize;
+
 }
 
-
-- (void)reloadDataSource;
-
-- (void)doneLoadingData;
 @end

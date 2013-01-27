@@ -22,7 +22,6 @@
 - (void)requestFinished:(ASIHTTPRequest *)request{
     int tag=request.tag;
     NSString *jsonStr=[request responseString];
-    NSLog(@"%@",jsonStr);
     NSMutableArray *itemList=nil;
     if(tag==ALL_ITEMS_REQ){
         itemList=[ItemModel buildItemModelList:jsonStr];
